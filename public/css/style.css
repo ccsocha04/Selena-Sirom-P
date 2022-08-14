@@ -40,11 +40,11 @@
 /* #Sections with background image
 ================================================== */
 #our-story-title {
-  background-image: url("../images/our-story-background-img.jpg");
+  /* background-image: url("../images/our-story-background-img.jpg"); */
 }
 @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   #our-story-title {
-    background-image: url("../images/our-story-background-img.jpg");
+    /* background-image: url("../images/our-story-background-img.jpg"); */
   }
 }
 
@@ -1736,7 +1736,7 @@ p.center {
 
 .hero-wrapper {
   position: relative;
-  padding: 45px 0;
+  padding: 120px 0;
 }
 .hero-wrapper::before, .hero-wrapper::after {
   content: "";
@@ -2829,7 +2829,7 @@ p.center {
 }
 .invite .invite_title {
   font-family: "Playfair Display", serif;
-  font-size: 90pt;
+  font-size: 80pt;
   width: 48%;
   display: flex;
   flex-direction: column;
@@ -2852,7 +2852,7 @@ p.center {
   height: 154px;
   position: absolute;
   top: 30px;
-  right: 30px;
+  right: 46px;
   z-index: 0;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2869,7 +2869,7 @@ p.center {
   top: auto;
   right: auto;
   bottom: 11px;
-  left: 4px;
+  left: 46px;
   -webkit-transform: rotate(-180deg);
   -moz-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
@@ -5926,7 +5926,7 @@ textarea.form-control {
     bottom: 0;
   }
   .invite .invite_title .text small {
-    font-size: 25px;
+    font-size: 15px;
   }
   .invite .invite_info h2 {
     font-size: 28pt;
