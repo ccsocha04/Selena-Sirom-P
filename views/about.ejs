@@ -1,0 +1,49 @@
+<section id="about-us">
+    <div class="container">
+      <div class="row about-elems-wrapper">
+        <div class="element col-md-6 col-xl-4 offset-xl-2" data-animation-direction="from-left"
+          data-animation-delay="300">
+          <div class="image">
+            <img src="<%= the_groom.he_image %>" alt="<%= the_groom.he_image_alt %>" />
+            <div class="hover-info neela-style">
+              <div class="content">
+                <h3><%= groom %><small><%= the_groom.he %></small></h3>
+                <p><%= the_groom.he_is_1 %><br><%= the_groom.he_is_2 %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider-about-us" data-animation-direction="fade" data-animation-delay="500">
+          <i class="icon-two-hearts"></i>
+        </div>
+
+        <div class="element col-md-6 col-xl-4" data-animation-direction="from-right" data-animation-delay="400">
+          <div class="image">
+            <img src="<%= the_bride.she_image %>" alt="<%= the_bride.she_image_alt %>" />
+            <div class="hover-info neela-style">
+              <div class="content">
+                <h3><%= bride %><small><%= the_bride.she %></small></h3>
+                <p><%= the_bride.she_is_1 %><br><%= the_bride.she_is_2 %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="about-us-desc col-lg-8 offset-lg-2" data-animation-direction="from-bottom"
+          data-animation-delay="300">
+          <h3><%= we_are_getting_married %></h3>
+          <div class="item">
+            <blockquote>
+              <%= we_are_getting_married_p %><br><br>
+              <small><%= we_are_getting_married_p_1 %></small>
+            </blockquote>
+            <p><%= we_are_getting_married_p_2 %></p>
+          </div>
+          <img src="<%= signature %>" alt="<%= signature_alt %>">
+        </div>
+      </div>
+    </div>
+  </section>

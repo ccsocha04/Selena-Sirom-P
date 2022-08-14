@@ -1,0 +1,163 @@
+<section id="our-story-title" class="parallax-background bg-color-overlay section-divider-bottom-2 padding-divider-top">
+    <div class="section-divider-top-1 off-section"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="section-title light">
+                    <%= our_story.title %>
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="loveline">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+          <div class="timeline">
+            <div class="year" data-animation-direction="from-top" data-animation-delay="250">
+              <span class="neela-style"><%= our_story.first_kiss_year %></span>
+            </div>
+
+            <div class="template-1">
+              <div class="date" data-parallax="3" data-animation-direction="fade" data-animation-delay="350">
+                <span class="neela-style"><%= our_story.first_kiss_date %></span>
+              </div>
+
+              <div class="image-1" data-parallax="-4" data-animation-direction="from-left" data-animation-delay="250">
+                <img src="<%= our_story.first_kiss_image1 %>" alt="<%= our_story.first_kiss_alt1 %>">
+              </div>
+
+              <div class="image-2" data-parallax="6" data-animation-direction="from-right" data-animation-delay="250">
+                <img src="<%= our_story.first_kiss_image2 %>" alt="<%= our_story.first_kiss_alt2 %>">
+              </div>
+
+              <div class="description-wrapper" data-parallax="-6" data-animation-direction="from-bottom"
+                data-animation-delay="250">
+                <div class="description" data-parallax="-6" data-animation-direction="from-bottom"
+                  data-animation-delay="250">
+                  <div class="neela-style">
+                    <h4><%= our_story.first_kiss %></h4>
+                    <p><%= our_story.first_kiss_p %></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="year" data-animation-direction="from-top" data-animation-delay="250">
+              <span class="neela-style"><%= our_story.memorable_moments_year %></span>
+            </div>
+
+            <div class="gallery-container">
+              <div class="timeline-gallery-wrapper" data-animation-direction="from-left" data-animation-delay="250">
+                <div class="timeline-gallery owl-carousel">
+                  <div class="item">
+                    <a class="hover-img"
+                      href="<%= our_story.memorable_moments_slider1 %>"
+                      data-lightbox="gallery-timeline" title="<%= our_story.memorable_moments_alt1 %>"><span
+                        class="btn btn-light btn-sm">+</span></a>
+                    <img src="<%= our_story.memorable_moments_slider1 %>" alt="<%= our_story.memorable_moments_alt1 %>" />
+                  </div>
+
+                  <div class="item">
+                    <a class="hover-img"
+                    href="<%= our_story.memorable_moments_slider2 %>"
+                      data-lightbox="gallery-timeline" title="<%= our_story.memorable_moments_alt2 %>"><span
+                        class="btn btn-light btn-sm">+</span></a>
+                    <img src="<%= our_story.memorable_moments_slider2 %>" alt="<%= our_story.memorable_moments_alt2 %>" />
+                  </div>
+
+                  <div class="item">
+                    <a class="hover-img"
+                    href="<%= our_story.memorable_moments_slider3 %>"
+                      data-lightbox="gallery-timeline" title="<%= our_story.memorable_moments_alt3 %>"><span
+                        class="btn btn-light btn-sm">+</span></a>
+                    <img src="<%= our_story.memorable_moments_slider3 %>" alt="<%= our_story.memorable_moments_alt3 %>" />
+                  </div>
+
+                  <div class="item">
+                    <a class="hover-img"
+                    href="<%= our_story.memorable_moments_slider4 %>"
+                      data-lightbox="gallery-timeline" title="<%= our_story.memorable_moments_alt4 %>"><span
+                        class="btn btn-light btn-sm">+</span></a>
+                    <img src="<%= our_story.memorable_moments_slider4 %>" alt="<%= our_story.memorable_moments_alt4 %>" />
+                  </div>
+
+                  <div class="item">
+                    <a class="hover-img"
+                    href="<%= our_story.memorable_moments_slider5 %>"
+                      data-lightbox="gallery-timeline" title="<%= our_story.memorable_moments_alt5 %>"><span
+                        class="btn btn-light btn-sm">+</span></a>
+                    <img src="<%= our_story.memorable_moments_slider5 %>" alt="<%= our_story.memorable_moments_alt5 %>" />
+                  </div>
+
+                  <div class="item">
+                    <a class="hover-img"
+                    href="<%= our_story.memorable_moments_slider6 %>"
+                      data-lightbox="gallery-timeline" title="<%= our_story.memorable_moments_alt6 %>"><span
+                        class="btn btn-light btn-sm">+</span></a>
+                    <img src="<%= our_story.memorable_moments_slider6 %>" alt="<%= our_story.memorable_moments_alt6 %>" />
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="description-wrapper" data-animation-direction="from-bottom" data-animation-delay="250">
+                <div class="description">
+                  <div class="neela-style">
+                    <h4><%= our_story.memorable_moments %></h4>
+                    <p><%= our_story.memorable_moments_p %></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="year" data-animation-direction="from-top" data-animation-delay="250">
+              <span class="neela-style"><%= our_story.she_said_yes_year %></span>
+            </div>
+
+            <div class="template-2">
+              <div class="date" data-parallax="3" data-animation-direction="fade" data-animation-delay="250">
+                <span class="neela-style"><%= our_story.she_said_yes_date %></span>
+              </div>
+
+              <div class="videoEmbed" data-parallax="6" data-animation-direction="from-top"
+                data-animation-delay="250">
+                <iframe src="https://player.vimeo.com/video/718330260" width="590" height="330"
+                  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="image-1" data-parallax="-2" data-animation-direction="from-left" data-animation-delay="250">
+                <img src="<%= our_story.she_said_yes_image1 %>" alt="<%= our_story.she_said_yes_alt1 %>">
+              </div>
+
+              <div class="image-2" data-parallax="4" data-animation-direction="from-right" data-animation-delay="250">
+                <img src="<%= our_story.she_said_yes_image2 %>" alt="<%= our_story.she_said_yes_alt2 %>">
+              </div>
+
+              <div class="description-wrapper" data-parallax="-5" data-animation-direction="from-bottom"
+                data-animation-delay="250">
+                <div class="description" data-parallax="-6" data-animation-direction="from-bottom"
+                  data-animation-delay="250">
+                  <div class="neela-style">
+                    <h4><%= our_story.she_said_yes %></h4>
+                    <p><%= our_story.she_said_yes_p %></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline_footer">
+            <i class="icon-diamond-ring" data-animation-direction="from-top" data-animation-delay="250"></i>
+            <div class="punchline" data-animation-direction="from-bottom" data-animation-delay="250">
+                <small><%= our_story.she_said_yes_text1 %></small>
+                <%= our_story.she_said_yes_text2 %><br><%= our_story.she_said_yes_text3 %>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
